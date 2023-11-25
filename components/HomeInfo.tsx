@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import arrow from "../assets/icons/arrow.svg"
+import Image from 'next/image';
 
 interface HomeInfoProps {
     currentStage: number;
@@ -57,7 +58,7 @@ interface HomeInfoProps {
 
       <Link href='/contact' className='neo-brutalism-white neo-btn'>
         Let's talk
-        <img src={arrow.src} alt='arrow' className='w-4 h-4 object-contain' />
+        <Image src={arrow.src} alt='arrow' className='w-4 h-4 object-contain' />
       </Link>
     </div>
     );

@@ -1,6 +1,7 @@
 import React from 'react'
 import {skills} from "../constants/index"
 import Navbar from '../components/Navbar';
+import Image from 'next/image';
 
 type skillProps={
   imageUrl: any;
@@ -39,7 +40,7 @@ const about = () => {
           <div className='block-container w-20 h-20' key={skill.name}>
      <div className='btn-front rounded-xl flex justify-center items-center'>
                  <div className='btn-back rounded-xl' />
-            <img src={skill.imageUrl.src}     alt={skill.name}   className='w-1/2 h-1/2 object-contain' />
+            <Image src={skill.imageUrl.src}     alt={skill.name}   className='w-1/2 h-1/2 object-contain' />
             </div>        
           </div>
         ))}
