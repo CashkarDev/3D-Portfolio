@@ -36,7 +36,7 @@ const about = () => {
         <h3 className='subhead-text'>My Skills</h3>
         <div className='flex justify-center item-center flex-wrap'>
         {skills && skills.map((skill:skillProps)=>(
-          <div className='block-container w-20 h-20'>
+          <div className='block-container w-20 h-20' key={skill.name}>
      <div className='btn-front rounded-xl flex justify-center items-center'>
                  <div className='btn-back rounded-xl' />
             <img src={skill.imageUrl.src}     alt={skill.name}   className='w-1/2 h-1/2 object-contain' />
