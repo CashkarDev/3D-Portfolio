@@ -28,7 +28,7 @@ interface HomeInfoProps {
 
         <Link href='/about' className='neo-brutalism-white neo-btn'>
           Learn more
-          <img src={arrow.src} alt='arrow' className='w-4 h-4 object-contain' />
+          <Image src={arrow.src} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
     );
@@ -43,7 +43,7 @@ interface HomeInfoProps {
 
         <Link href='/projects' className='neo-brutalism-white neo-btn'>
           Visit my portfolio
-          <img src={arrow.src} alt='arrow' className='w-4 h-4 object-contain' />
+          <Image src={arrow.src} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
     );

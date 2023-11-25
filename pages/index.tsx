@@ -1,6 +1,5 @@
 
 import { Canvas } from "@react-three/fiber";
-import { Environment, OrbitControls } from "@react-three/drei";
 import { Suspense, useEffect, useState } from "react";
 import { Island } from "../components/Island";
 import { Sky } from "../components/Sky";

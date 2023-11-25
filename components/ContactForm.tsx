@@ -1,6 +1,6 @@
 
 import { Alert, TextField } from '@mui/material'
-import { Suspense, useEffect, useRef, useState } from "react";
+import { Suspense,  useState } from "react";
 import Button from '@mui/material/Button';
 import { Canvas } from '@react-three/fiber';
 import { Fox } from './Fox';
