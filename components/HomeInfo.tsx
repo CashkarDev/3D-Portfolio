@@ -11,7 +11,7 @@ interface HomeInfoProps {
     if (currentStage === 1)
     return (
       <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5">
-        Hi, I"m
+        Hi, I&apos;m
         <span className="font-semibold mx-2 text-white">Kritan</span>
         👋
         <br />
@@ -28,7 +28,7 @@ interface HomeInfoProps {
 
         <Link href="/about" className="neo-brutalism-white neo-btn">
           Learn more
-          <Image src={arrow.src} alt="arrow" className="w-4 h-4 object-contain" />
+          <Image src={arrow.src} width={100} height={100} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
     );
@@ -43,7 +43,7 @@ interface HomeInfoProps {
 
         <Link href="/projects" className="neo-brutalism-white neo-btn">
           Visit my portfolio
-          <Image src={arrow.src} alt="arrow" className="w-4 h-4 object-contain" />
+          <Image src={arrow.src} width={100} height={100} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
     );
@@ -57,8 +57,8 @@ interface HomeInfoProps {
       </p>
 
       <Link href="/contact" className="neo-brutalism-white neo-btn">
-        Let"s talk
-        <Image src={arrow.src} alt="arrow" className="w-4 h-4 object-contain" />
+        Let&apos;s talk
+        <Image src={arrow.src} width={100} height={100} alt="arrow" className="w-4 h-4 object-contain" />
       </Link>
     </div>
     );

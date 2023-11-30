@@ -19,11 +19,11 @@ const Projects = () => {
     <Navbar/>
   </div>
             <h1 className="head-text">
-        My
+        My  &nbsp;
         <span className="blue-gradient_text font-semibold drop-shadow">
-          {" "}
+       
     Projects
-        </span>{" "}
+        </span>
     
       </h1>
       
@@ -43,8 +43,12 @@ const Projects = () => {
                <Link     target="_blank"
                   rel="noopener noreferrer" href={project.link}  className="relative flex flex-col h-auto  bottom-0 left-0 z-10 bg-slate-300"
             > 
-            <Image src={project.thumbnail.src} className="  w-full h-auto rounded" alt={project.name} />
-       <div className="absolute bottom-0 left-0 flex flex-col px-4 py-2 bg-gradient-to-r from-purple-200 via-blue-200 to-green-200  backdrop-blur-md backdrop-filter bg-opacity-25 ">
+            <Image 
+            width={1000} height={1000}
+             src={project.thumbnail.src} className="  w-full h-auto rounded" alt={project.name} />
+       <div className="absolute bottom-0 left-0 flex flex-col px-4 py-2 bg-gradient-to-r from-purple-200 via-blue-200 to-green-200  
+       backdrop-blur-md backdrop-filter bg-opacity-25
+        ">
        <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}
               </h4>

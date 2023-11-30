@@ -18,11 +18,11 @@ const about = () => {
     <Navbar/>
   </span>
       <h1 className="head-text">
-        Hello, I"m{" "}
+        Hello, I&apos;m &nbsp;
         <span className="blue-gradient_text font-semibold drop-shadow">
-          {" "}
-          Kritan
-        </span>{" "}
+     
+          Kritan &nbsp;
+        </span>
         👋
       </h1>
       
@@ -40,7 +40,7 @@ const about = () => {
           <div className="block-container w-20 h-20" key={skill.name}>
      <div className="btn-front rounded-xl flex justify-center items-center">
                  <div className="btn-back rounded-xl" />
-            <Image src={skill.imageUrl.src}     alt={skill.name}   className="w-1/2 h-1/2 object-contain" />
+            <Image src={skill.imageUrl.src} width={100} height={100}     alt={skill.name}   className="w-1/2 h-1/2 object-contain" />
             </div>        
           </div>
         ))}
