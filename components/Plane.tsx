@@ -188,6 +188,7 @@ type ContextType = Record<string, React.ForwardRefExoticComponent<JSX.IntrinsicE
 export const Plane = ({ isRotating, ...props }) => {
   const group = useRef<THREE.Group>()
   const { nodes, materials, animations } = useGLTF('/plane.gltf') as GLTFResult
+  // @ts-ignore
   const { actions } = useAnimations<GLTFActions>(animations, group)
 
     // Use an effect to control the plane's animation based on 'isRotating'

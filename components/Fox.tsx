@@ -45,6 +45,7 @@ export function Fox({dogRun,...props}) {
 
   const group = useRef<THREE.Group>()
   const { nodes, materials, animations } = useGLTF('/fox.gltf') as GLTFResult
+  // @ts-ignore
   const { actions } = useAnimations<GLTFActions>(animations, group)
 
 useEffect(()=>{

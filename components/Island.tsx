@@ -187,10 +187,10 @@ export function Island(
     }
   });
 
-
   return (
     <group ref={islandRef} {...props} dispose={null}   >
       <mesh geometry={nodes.pCube11_rocks1_0.geometry} material={materials.PaletteMaterial001} />
+   
       <instancedMesh args={[nodes.polySurface944_tree_body_0.geometry, materials.PaletteMaterial001, 8]} instanceMatrix={nodes.polySurface944_tree_body_0.instanceMatrix} />
       <instancedMesh args={[nodes.polySurface945_tree1_0.geometry, materials.PaletteMaterial001, 5]} instanceMatrix={nodes.polySurface945_tree1_0.instanceMatrix} />
       <instancedMesh args={[nodes.polySurface946_tree2_0.geometry, materials.PaletteMaterial001, 5]} instanceMatrix={nodes.polySurface946_tree2_0.instanceMatrix} />

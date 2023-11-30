@@ -33,6 +33,7 @@ type ContextType = Record<string, React.ForwardRefExoticComponent<JSX.IntrinsicE
 export function Bird(props: JSX.IntrinsicElements['group']) {
   const group = useRef<THREE.Group>()
   const { nodes, materials, animations } = useGLTF('/bird.gltf') as GLTFResult
+  // @ts-ignore
   const { actions } = useAnimations<GLTFActions>(animations, group)
 
 useEffect(()=>{
