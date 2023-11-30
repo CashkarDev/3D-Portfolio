@@ -29,7 +29,7 @@ const about = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
      
-"Passionate web developer from Nepal, dedicated to crafting innovative and user-friendly digital experiences that seamlessly blend functionality with aesthetic appeal."
+        &quot;Passionate web developer from Nepal, dedicated to crafting innovative and user-friendly digital experiences that seamlessly blend functionality with aesthetic appeal.&quot;
         </p>
       </div>
 

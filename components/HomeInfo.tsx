@@ -53,7 +53,7 @@ interface HomeInfoProps {
     return (
       <div className="info-box">
       <p className="font-medium sm:text-xl text-center">
-        Need a project done or looking for a dev? <br/> I"m just a few keystrokes away.
+        Need a project done or looking for a dev? <br/> I&quot;m just a few keystrokes away.
       </p>
 
       <Link href="/contact" className="neo-brutalism-white neo-btn">
