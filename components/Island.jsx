@@ -13,22 +13,22 @@ import { useGLTF } from '@react-three/drei'
 import { GLTF } from 'three-stdlib'
 import { useFrame, useThree } from '@react-three/fiber'
 
-type GLTFResult = GLTF & {
-  nodes: {
-    pCube11_rocks1_0: THREE.Mesh
-    polySurface944_tree_body_0: THREE.Mesh
-    polySurface945_tree1_0: THREE.Mesh
-    polySurface946_tree2_0: THREE.Mesh
-    polySurface947_tree1_0: THREE.Mesh
-    polySurface948_tree_body_0: THREE.Mesh
-    polySurface949_tree_body_0: THREE.Mesh
-  }
-  materials: {
-    PaletteMaterial001: THREE.MeshStandardMaterial
-  }
-}
+// type GLTFResult = GLTF & {
+//   nodes: {
+//     pCube11_rocks1_0: THREE.Mesh
+//     polySurface944_tree_body_0: THREE.Mesh
+//     polySurface945_tree1_0: THREE.Mesh
+//     polySurface946_tree2_0: THREE.Mesh
+//     polySurface947_tree1_0: THREE.Mesh
+//     polySurface948_tree_body_0: THREE.Mesh
+//     polySurface949_tree_body_0: THREE.Mesh
+//   }
+//   materials: {
+//     PaletteMaterial001: THREE.MeshStandardMaterial
+//   }
+// }
 
-type ContextType = Record<string, React.ForwardRefExoticComponent<JSX.IntrinsicElements['mesh']>>
+// type ContextType = Record<string, React.ForwardRefExoticComponent<JSX.IntrinsicElements['mesh']>>
 
 export function Island(
   {
@@ -37,7 +37,8 @@ export function Island(
     const islandRef = useRef(null);
     // Get access to the Three.js renderer and viewport
     const { gl, viewport } = useThree();
-  const { nodes, materials } = useGLTF('/island.gltf') as GLTFResult
+  const { nodes, materials } = useGLTF('/island.gltf')
+  //  as GLTFResult
 
 
 

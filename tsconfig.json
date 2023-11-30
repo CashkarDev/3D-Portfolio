@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "components/Island.jsx"  ],
   "exclude": [
     "node_modules"
   ],
