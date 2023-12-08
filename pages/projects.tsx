@@ -12,7 +12,7 @@ type projectProp={
 }
 
 const Projects = () => {
-  
+ 
   return (
     <section className="max-container relative">
   <div className="absolute inset-0 z-20 h-[80px] max-w-5xl mx-auto">
@@ -36,10 +36,11 @@ const Projects = () => {
 
       <div className="flex mt-8  justify-center items-center  w-full flex-wrap gap-12 md:gap-8" >
         {projects && projects.map((project:projectProp)=>(
-   
+  
                 <div className={`md:w-[46%]  rounded  md:min-w-[300px] w-[80%] min-w-[200px]   cursor-pointer`} key={project.name }    
          
                 >
+              
                <Link     target="_blank"
                   rel="noopener noreferrer" href={project.link}  className="relative flex flex-col h-auto  bottom-0 left-0 z-10 bg-slate-300"
             > 

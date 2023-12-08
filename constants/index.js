@@ -1,4 +1,4 @@
-import {bank,youtube} from "../assets/images"
+import {bank,youtube,anime,ecommerce} from "../assets/images"
 import {
     car,
     contact,
@@ -141,6 +141,18 @@ export const projects = [
         name: 'A Banking Website',
         description: 'An awesome website to create a digital presence of easyBank.',
         link: 'https://ease-banking.vercel.app/',
+    },
+    {
+        thumbnail: ecommerce,
+        name: 'An Ecommerce Website',
+        description: 'A stunning online ecommerce web to market your beautiful products.',
+        link: 'https://ecommerce-with-sanity-stripe-xi.vercel.app/',
+    },
+    {
+        thumbnail: anime,
+        name: 'Unlimited Anime Platform',
+        description: 'An online platform to browse all the anime out there.',
+        link: 'https://infinite-anime-scroll.vercel.app/',
     },
  
 ];
